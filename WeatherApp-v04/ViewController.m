@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "WeatherClient.h"
 #import "LocationManager.h"
+#import "SVProgressHUD.h"
 
 @interface ViewController ()
 
