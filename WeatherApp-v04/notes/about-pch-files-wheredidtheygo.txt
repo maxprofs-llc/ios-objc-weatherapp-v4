@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/24305211/pch-file-in-xcode-6
+
+https://stackoverflow.com/questions/24158648/why-isnt-projectname-prefix-pch-created-automatically-in-xcode-6
