@@ -8,7 +8,12 @@
 
 #import "AFHTTPClient.h"
 #import <AFNetworking/AFNetworking.h>
+#import "Observation.h"
+// noted here that the pch file is not associating properly. so manual import of core location framework may be needed
+#import <CoreLocation/CoreLocation.h>
 
 @interface WeatherClient : AFHTTPClient
 + (instancetype)sharedClient;
+- (void)getCurrentWeatherObservationForLocation:(CLLocation *)location completion:(void(^)(Observation *observation, NSError *error))completion;
+
 @end
