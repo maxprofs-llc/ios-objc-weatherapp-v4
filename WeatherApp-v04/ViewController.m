@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "WeatherClient.h"
+#import "LocationManager.h"
 
 @interface ViewController ()
 
@@ -24,6 +26,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

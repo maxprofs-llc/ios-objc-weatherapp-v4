@@ -18,6 +18,7 @@
 		2B6655DF20DD3DC100F348EB /* WeatherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6655DE20DD3DC100F348EB /* WeatherClient.m */; };
 		2B6655E120DD3E9300F348EB /* difference-using-quotes-vs-anglebrk-imports in Resources */ = {isa = PBXBuildFile; fileRef = 2B6655E020DD3E9300F348EB /* difference-using-quotes-vs-anglebrk-imports */; };
 		2B6655E420DD45B700F348EB /* Observation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6655E320DD45B700F348EB /* Observation.m */; };
+		2B6655E720DD49E300F348EB /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6655E620DD49E300F348EB /* LocationManager.m */; };
 		2B78968720DC86DF00DE1443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78968620DC86DF00DE1443 /* AppDelegate.m */; };
 		2B78968A20DC86E000DE1443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78968920DC86E000DE1443 /* ViewController.m */; };
 		2B78968D20DC86E000DE1443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B78968B20DC86E000DE1443 /* Main.storyboard */; };
@@ -45,6 +46,8 @@
 		2B6655E020DD3E9300F348EB /* difference-using-quotes-vs-anglebrk-imports */ = {isa = PBXFileReference; lastKnownFileType = text; path = "difference-using-quotes-vs-anglebrk-imports"; sourceTree = "<group>"; };
 		2B6655E220DD45B700F348EB /* Observation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observation.h; sourceTree = "<group>"; };
 		2B6655E320DD45B700F348EB /* Observation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Observation.m; sourceTree = "<group>"; };
+		2B6655E520DD49E300F348EB /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		2B6655E620DD49E300F348EB /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		2B78968220DC86DF00DE1443 /* WeatherApp-v04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherApp-v04.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B78968520DC86DF00DE1443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B78968620DC86DF00DE1443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				2B6655DB20DD30B200F348EB /* WeatherAppV04.pch */,
 				2B6655DD20DD3DC100F348EB /* WeatherClient.h */,
 				2B6655DE20DD3DC100F348EB /* WeatherClient.m */,
+				2B6655E520DD49E300F348EB /* LocationManager.h */,
+				2B6655E620DD49E300F348EB /* LocationManager.m */,
 			);
 			path = "WeatherApp-v04";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6655E720DD49E300F348EB /* LocationManager.m in Sources */,
 				2B78968A20DC86E000DE1443 /* ViewController.m in Sources */,
 				2B6655E420DD45B700F348EB /* Observation.m in Sources */,
 				2B6655DF20DD3DC100F348EB /* WeatherClient.m in Sources */,
