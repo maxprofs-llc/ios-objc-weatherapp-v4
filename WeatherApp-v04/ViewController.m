@@ -28,4 +28,31 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)reloadData
+{
+    WeatherClient *client = [WeatherClient sharedClient];
+    CLLocation *location = [[LocationManager sharedManager] currentLocation];
+    
+    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeGradient];
+    
+    __weak ViewController *weakSelf = self;
+    [client getCurrentWeatherObservationForLocation:location completion:^(Observation *observation, NSError *error) {
+        if (error)
+        {
+            NSLog(@"Web Service Error: %@", [error description]);
+        }
+        else
+        {
+            [weakSelf updateUIWithObservation:observation];
+        }
+        
+        [SVProgressHUD dismiss];
+    }];
+}
+
+- (void)updateUIWithObservation:(Observation *)observation
+{
+    // We will update our UI here...
+}
+
 @end
