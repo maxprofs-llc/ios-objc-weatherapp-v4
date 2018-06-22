@@ -1,0 +1,30 @@
+//
+//  WeatherAppV04.pch
+//  WeatherApp-v04
+//
+//  Created by Edward Apostol on 6/22/18.
+//  Copyright © 2018 edward. All rights reserved.
+//
+
+#import
+
+#ifndef __IPHONE_4_0
+#warning "need a newer iPhone >4"
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <QuartzCore/QuartzCore.h>
+#endif
+
+#ifndef WeatherAppV04_pch
+#define WeatherAppV04_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WeatherAppV04_pch */
